@@ -126,10 +126,10 @@ import {
           <img src="../assets/first.jpg" alt="" />
         </div>
         <div class="box--portfolio">
-          <img src="../assets/first.jpg" alt="" />
+          <img src="../assets/second.jpg" alt="" />
         </div>
         <div class="box--portfolio">
-          <img src="../assets/first.jpg" alt="" />
+          <img src="../assets/second.jpg" alt="" />
         </div>
       </div>
     </section>
