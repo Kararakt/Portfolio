@@ -123,7 +123,7 @@ import {
           <img src="../assets/first.jpg" alt="" />
         </div>
         <div class="box--portfolio">
-          <img src="../assets/first.jpg" alt="" />
+          <img src="../assets/third.jpg" alt="" />
         </div>
         <div class="box--portfolio">
           <img src="../assets/second.jpg" alt="" />
