@@ -86,33 +86,6 @@ import {
             security systems", Department "Information Protection"
           </p>
         </div>
-        <div class="box--education">
-          <el-icon class="icon--education" :size="30"><StarFilled /></el-icon>
-          <span> 2019</span>
-          <h3>MIREA</h3>
-          <p>
-            Russian Technological University. Direction "Information security of
-            security systems", Department "Information Protection"
-          </p>
-        </div>
-        <div class="box--education">
-          <el-icon class="icon--education" :size="30"><StarFilled /></el-icon>
-          <span> 2019</span>
-          <h3>MIREA</h3>
-          <p>
-            Russian Technological University. Direction "Information security of
-            security systems", Department "Information Protection"
-          </p>
-        </div>
-        <div class="box--education">
-          <el-icon class="icon--education" :size="30"><StarFilled /></el-icon>
-          <span> 2019</span>
-          <h3>MIREA</h3>
-          <p>
-            Russian Technological University. Direction "Information security of
-            security systems", Department "Information Protection"
-          </p>
-        </div>
       </div>
     </section>
 
@@ -129,7 +102,10 @@ import {
           <img src="../assets/second.jpg" alt="" />
         </div>
         <div class="box--portfolio">
-          <img src="../assets/second.jpg" alt="" />
+          <img src="../assets/fourth.jpg" alt="" />
+        </div>
+        <div class="box--portfolio">
+          <img src="../assets/fifth.jpg" alt="" />
         </div>
       </div>
     </section>
