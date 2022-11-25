@@ -17,10 +17,10 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 
 ## Project setup
 ```
-npm install
+pnpm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+pnpm dev
 ```
