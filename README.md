@@ -15,10 +15,12 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
 
-Copy SSH key and write in your terminal:
+## Project setup
+```
+npm install
+```
 
-- pnpm install
-
-After that write:
-
-- pnpm dev
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
