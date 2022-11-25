@@ -6,6 +6,7 @@ import {
   LocationFilled,
   Promotion,
 } from "@element-plus/icons-vue";
+import { scrollUpFunction } from "../modules/HomePageHelper";
 </script>
 
 <template>
@@ -54,7 +55,7 @@ import {
         <div class="info--about">
           <h3><span> Name:</span> Denis</h3>
           <h3><span> Surname:</span> Vlaskin</h3>
-          <h3><span> Age:</span> 21</h3>
+          <h3><span> Age:</span> 22</h3>
           <h3><span> Language:</span> Russian</h3>
         </div>
         <div class="counter--about">
@@ -94,6 +95,7 @@ import {
       <div class="box_container--portfolio">
         <div class="box--portfolio">
           <img src="../assets/first.jpg" alt="" />
+          <span class="">sss</span>
         </div>
         <div class="box--portfolio">
           <img src="../assets/third.jpg" alt="" />
@@ -102,10 +104,16 @@ import {
           <img src="../assets/second.jpg" alt="" />
         </div>
         <div class="box--portfolio">
-          <img src="../assets/fourth.jpg" alt="" />
+          <img class="img" src="../assets/fourth.jpg" alt="" />
         </div>
         <div class="box--portfolio">
           <img src="../assets/fifth.jpg" alt="" />
+        </div>
+        <div class="box--portfolio">
+          <img src="../assets/sixth.png" alt="" />
+        </div>
+        <div class="box--portfolio">
+          <img src="../assets/seventh.png" alt="" />
         </div>
       </div>
     </section>
@@ -150,7 +158,7 @@ import {
         </el-form>
       </div>
     </section>
-    <a href="#home" class="top"
+    <a href="#home" id="scrollUp" @click="scrollUpFunction()" class="top"
       ><img src="../assets/scroll-top-img.png" alt=""
     /></a>
   </div>
